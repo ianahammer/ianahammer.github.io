@@ -5,6 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>About Ian Hammer</title>
     <style>
+
       body{
         background-color: #DEF4C6;
         font-family: 'Roboto', sans-serif;
@@ -12,61 +13,113 @@
 
       h1 {
           font-size: 5em;
-          text-align: left;
+          text-align: center;
           color:  #1B512D;
       }
 
-      #headshot{
-        image-align: right;
-        height: 700px;
-        border: 2px solid #B1CF5F;
-      }
 
-      #main{
-        width: 1000px;
-        height: 1200px;
-        background-color: #96ADC8;
-      }
 
       #navigation {
-        margin: 0;
-        padding: 0;
         list-style-type: none;
-        text-align: center;
-        vertical-align: center;
+        vertical-align: middle;
         border-radius: 5px;
       }
+
+      nav{
+        width: 300px;
+        height: 25px;
+        font-size: 24px;
+        color: #6E8894;
+        margin: auto;
+        text-align: center;
+      }
+
       .nav, a{
         display: table-cell;
         text-align: center;
-        vertical-align: center;
+        width:250px;
+        height: 75px;
+        font-size: 20px;
+        vertical-align: middle;
         border-radius: 5px;
+        color: #5b3000;
+        padding-right: 20px;
       }
 
       a{
         text-decoration: none;
-        background-color: #D89D6A;
-        color: #96ADC8;
-        font-size: 150%;;
+        color: #5b3000;
       }
 
       a:hover{
-        background-color: #96ADC8;
-        color: #D89D6A;
         border-radius: 3px;
+        font-weight: bold;
       }
+
+      hr{
+        color: #6E8894;
+        width: 70%;
+        margin-top: 50px;
+      }
+
+      .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #1B512D;
+        font-size: 18px;
+        text-align: center;
+      }
+      img {
+        min-width: 100%;
+        height: 500px;
+        border-radius: 5%;
+        border: 3px solid #6E8894;
+        margin-left: 50px;
+      }
+      .headshot{
+        flex-basis: 40%;
+        border-radius: 50%;
+      }
+
+      .text{
+        font-size: 32px;
+        color: #1B512D;
+        margin: 10px;
+      }
+
+      h2 {
+        margin-left: 200px;
+        margin-right: 50px;
+
+        }
     </style>
   </head>
   <body>
     <div class="main">
       <nav>
         <ul id="navigation">
+          <li class="nav"> <a href="index.html">Home</a></li>
           <li class="nav"> <a href="resume.html">Resume</a></li>
-          <li class="nav"> <a href="lifephoto.html">My Life in Photos</a></li>
+          <li class="nav"> <a href="lifephoto.html">Happiness Research Project</a></li>
         </ul>
       </nav>
+      <hr>
       <h1>Ian Hammer</h1>
-      <img id= "headshot" src="XX2022Headshot.jpeg" alt="Whoops, I don't appear to be downloading! Try reloading the webpage.">
     </div>
+
+    <div class="container">
+      <div class="headshot">
+        <img src="XX2022Headshot.jpeg" alt="Whoops, I don't appear to be downloading! Try reloading the webpage.">
+      </div>
+
+      <div class="about">
+        <h2>Hello! My name is Ian Hammer. I am currently a sophomore enrolled at Babson College where I am a both part of the Honors Program and a Dean's Scholar.
+          On campus, I serve as a mentor for the world-reknown entrepreneurship course Foundations of Management and Entreprenurship. Additionally,
+          I am a Glavin Global Fellow, CAB comittee member, and play on the Club Lacrosse Team. I'm also a marketing intern for an industrial technology
+          wearables company, KENZEN. My interests include: global travel, sports, health and nutrition, and LEGOs!</h2>
+      </div>
+    </div>
+
   </body>
 </html>
