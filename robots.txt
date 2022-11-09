@@ -1,3 +1,3 @@
 https://ianahammer.github.io/sitemap.xml
-User-agent: * Ianahammer.github.io
-Allow: / Ianahammer.githib.io
+User-agent: *
+Allow: /
